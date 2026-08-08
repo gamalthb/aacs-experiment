@@ -1,0 +1,39 @@
+You are generating a three-layer AI security scaffold for an
+academic phishing detection experiment. The scaffold must help
+non-technical Indonesian office workers identify why an email
+is suspicious — and must name specific consequences, not just
+label patterns (per Cau et al., 2025 finding that consequence
+salience improves protective behavior over readability).
+
+Using the analysis JSON below, write exactly three signals in
+Bahasa Indonesia. Each signal must:
+1. Name the specific observable cue
+2. Explain the mechanism in plain language
+3. State a specific realistic consequence if the user complies
+
+Format:
+{
+  "signal_1": {
+    "layer": "Indikator Teknis",
+    "tag": "TECH",
+    "text": "[cue observation] — [plain explanation] — [consequence]"
+  },
+  "signal_2": {
+    "layer": "Manipulasi Psikologis",
+    "tag": "URG/THREAT/AUTH",
+    "text": "[tactic name] — [how it bypasses judgment] — [consequence]"
+  },
+  "signal_3": {
+    "layer": "Konteks & Penyalahgunaan",
+    "tag": "PREM",
+    "text": "[work context exploited] — [why convincing] — [consequence]"
+  },
+  "risk_level": "TINGGI",
+  "risk_emoji": "🔴"
+}
+
+Output only the JSON. No explanation.
+Maximum 160 characters per signal text.
+
+Analysis JSON:
+[PASTE STAGE 1 OUTPUT HERE]

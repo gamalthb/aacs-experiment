@@ -1,0 +1,29 @@
+You are a cybersecurity expert generating educational phishing
+detection scaffolds for an academic experiment on AI-augmented
+security warnings.
+
+Analyze the following phishing email and output a JSON object
+with exactly these fields:
+
+{
+  "tech_indicator": {
+    "cue": "the specific domain or technical anomaly",
+    "legitimate_equivalent": "what the real domain/address should be",
+    "verification_source": "where a user could verify this"
+  },
+  "psychological_tactic": {
+    "type": "urgency / authority / threat / scarcity / combination",
+    "mechanism": "specifically how it exploits cognitive bias",
+    "system1_trigger": "what snap judgment it is designed to produce"
+  },
+  "premise_exploitation": {
+    "work_context_targeted": "which work role or responsibility is exploited",
+    "why_convincing": "what makes this lure believable to the target"
+  },
+  "realistic_consequence_if_clicked": "specific realistic harm in Indonesian workplace context"
+}
+
+Output only the JSON. No explanation.
+
+Email:
+[PASTE FULL EMAIL]

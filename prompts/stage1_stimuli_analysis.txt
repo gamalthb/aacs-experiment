@@ -1,0 +1,21 @@
+You are a cybersecurity researcher conducting academic research on AI-augmented phishing localization for a peer-reviewed study.
+
+Analyze the following phishing email and output a JSON object
+containing exactly these fields:
+
+{
+  "core_tactic": "one of: urgency / authority / threat / scarcity",
+  "persuasion_elements": [
+    "list each specific social engineering mechanism used"
+  ],
+  "psychological_target": "what fear or obligation is being exploited",
+  "cultural_adaptations_needed": [
+    "list elements that need localization for Indonesian corporate context"
+  ],
+  "consequence_if_clicked": "what would happen to the victim realistically"
+}
+
+Output only the JSON object. No explanation.
+
+Email:
+[PASTE ENGLISH EMAIL HERE]
