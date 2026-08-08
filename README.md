@@ -22,7 +22,8 @@ phase and an unwarned transfer phase.
 
 ## Repository Structure
 
-AACS-anti-phishing-experiment/ /n
+```
+AACS-anti-phishing-experiment/  
 ├── components/                      # Email display, warning box, response form  
 ├── data/ /n  
 │   ├── emails.json                  # 16 email stimuli (8 Phase 1, 8 Phase 2)  
@@ -33,13 +34,15 @@ AACS-anti-phishing-experiment/ /n
 │   ├── stage2_scaffold_gen.txt      # Three-layer scaffold generation prompt  
 │   └── stage2_stimuli_rewrite.txt   # LLM Stage 2 prompt (AI-augmented localization)  
 ├── results/  
-│   └── anonymized_responses_policy.txt     # Anonymized participant data (n=60)  
+│   └── anonymized_responses_policy.txt     # Anonymized participant data policy  
 ├── screens/                         # Consent, demographics, email, survey, debrief  
 ├── utils/                           # Session management, scoring, data export  
 ├── app.py                           # Main Streamlit entry point  
 ├── config.py                        # Constants and mode definitions  
 ├── README.md  
 └── requirements.txt                 # Python dependencies  
+```
+
 ---
 
 ## Stimulus Design
